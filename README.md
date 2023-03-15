@@ -15,4 +15,8 @@ We store all names, places, verbs, nouns, adverbs and details and generate a dif
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/126717931/225286891-d89447c4-6237-4588-bb3e-d159d8c3797e.png)
 ### Live demo
-<a href="https://replit.com/@viktorpetrov97/RandomSentencesGenerator"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:100px;height:100px;"></a>
+You can try the generator directly in your web browser here:
+
+<a href="https://replit.com/@viktorpetrov97/RandomSentencesGenerator"><img src="https://user-images.githubusercontent.com/126717931/225291563-b25fbd16-8481-417e-a7b3-6ba06ea2a7a6.png"></a>
+
+
