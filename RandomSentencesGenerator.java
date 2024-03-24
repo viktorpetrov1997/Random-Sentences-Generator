@@ -1,3 +1,5 @@
+package Lists.AdditionalProject;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,6 +16,8 @@ public class RandomSentencesGenerator
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
+
+        boolean theUserWantsToGenerateANewOne = false;
 
         String[] names = {"Peter","Michell","Jane","Steve"};
         String[] places = {"Sofia", "Plovdiv", "Varna", "Burgas"};
@@ -33,15 +37,30 @@ public class RandomSentencesGenerator
             String randomDetail = getRandomWord(details);
 
             System.out.printf("%s from %s %s %s %s %s%n",randomName,randomPlace,randomAdverb,randomVerb,randomNoun,randomDetail);
-            System.out.print("Do you want to generate a new one? ");
-            String generateSentence = scanner.nextLine();
-            if(generateSentence.equals("Yes") || generateSentence.equals("yes"))
+
+            while(true)
+            {
+                System.out.print("Do you want to generate a new one? (yes/y or no/n): ");
+                String generateSentence = scanner.nextLine();
+                if(generateSentence.equalsIgnoreCase("yes") || generateSentence.equalsIgnoreCase("y"))
+                {
+                    theUserWantsToGenerateANewOne = true;
+                    break;
+                }
+                else if(generateSentence.equalsIgnoreCase("no") || generateSentence.equalsIgnoreCase("n"))
+                {
+                    theUserWantsToGenerateANewOne = false;
+                    break;
+                }
+                else
+                {
+                    System.out.println("Invalid input. Please try again...");
+                    continue;
+                }
+            }
+            if(theUserWantsToGenerateANewOne)
             {
                 continue;
-            }
-            else if(generateSentence.equals("No") || generateSentence.equals("no"))
-            {
-                break;
             }
             else
             {
