@@ -31,12 +31,12 @@ public class RandomSentencesGenerator
         {
             String randomName = getRandomWord(names);
             String randomPlace = getRandomWord(places);
-            String randomVerb = getRandomWord(verbs);
             String randomNoun = getRandomWord(nouns);
+            String randomVerb = getRandomWord(verbs);
             String randomAdverb = getRandomWord(adverbs);
             String randomDetail = getRandomWord(details);
 
-            System.out.printf("%s from %s %s %s %s %s%n",randomName,randomPlace,randomAdverb,randomVerb,randomNoun,randomDetail);
+            System.out.printf("\n%s from %s %s %s %s %s\n\n",randomName,randomPlace,randomAdverb,randomVerb,randomNoun,randomDetail);
 
             while(true)
             {
@@ -54,7 +54,7 @@ public class RandomSentencesGenerator
                 }
                 else
                 {
-                    System.out.println("Invalid input. Please try again...");
+                    System.out.println("\nInvalid input. Please try again...\n");
                     continue;
                 }
             }
