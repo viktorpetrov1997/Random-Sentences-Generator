@@ -36,7 +36,7 @@ public class RandomSentencesGenerator
             String randomAdverb = getRandomWord(adverbs);
             String randomDetail = getRandomWord(details);
 
-            System.out.printf("\n%s from %s %s %s %s %s\n\n",randomName,randomPlace,randomAdverb,randomVerb,randomNoun,randomDetail);
+            System.out.printf("\n%s from %s %s %s %s %s.\n\n",randomName,randomPlace,randomAdverb,randomVerb,randomNoun,randomDetail);
 
             while(true)
             {
