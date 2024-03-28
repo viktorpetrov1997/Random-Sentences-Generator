@@ -13,7 +13,7 @@ We store all names, places, verbs, nouns, adverbs and details and generate a dif
 ### Source code link
 <a href="https://github.com/viktorpetrov1997/RandomSentencesGenerator/blob/main/RandomSentencesGenerator.java">[Source code]</a>
 ### Screenshots
-![image](https://github.com/viktorpetrov1997/Random-Sentences-Generator/assets/126717931/ca1f80c5-c13b-40cd-8e80-cfd6e652ed25)
+![image](https://github.com/viktorpetrov1997/Random-Sentences-Generator/assets/126717931/e55f743f-1fa0-41e2-bb17-e85dd16b642a)
 ### Live demo
 You can try the generator directly in your web browser here:
 
