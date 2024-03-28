@@ -17,6 +17,4 @@ We store all names, places, verbs, nouns, adverbs and details and generate a dif
 ### Live demo
 You can try the generator directly in your web browser here:
 
-<a href="https://replit.com/@viktorpetrov97/RandomSentencesGenerator"><img src="https://user-images.githubusercontent.com/126717931/225291563-b25fbd16-8481-417e-a7b3-6ba06ea2a7a6.png"></a>
-
-
+<a href="https://replit.com/@viktorpetrov97/RandomSentencesGenerator"><img src="https://github.com/viktorpetrov1997/Random-Sentences-Generator/assets/126717931/66a4ff92-712e-42ed-8df0-a2f0cb7172fd"></a>
